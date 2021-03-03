@@ -1,0 +1,39 @@
+{
+  "name": "test_nodejs",
+  "version": "1.0.0",
+  "description": "entrevista-Luis_Alejandro_Alvizurez_Aguirre",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*.test.ts",
+    "tsc": "tsc",
+    "start": "nodemon src/app.ts "
+  },
+  "author": "Luis_Alejandro_Alvizurez_Aguirre",
+  "license": "MIT",
+  "dependencies": {
+    "@shelf/jest-mongodb": "^1.2.3",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.6.4",
+    "nodemon": "^2.0.7",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/express": "^4.17.11",
+    "@types/jest": "^26.0.20",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.31",
+    "@types/supertest": "^2.0.10",
+    "chai": "^4.3.3",
+    "jest": "^26.6.3",
+    "mocha": "^8.3.0",
+    "supertest": "^6.1.3",
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "tsd": "^0.14.0",
+    "typescript": "^4.2.2"
+  }
+}
